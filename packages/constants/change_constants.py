@@ -43,9 +43,10 @@ def put_values(values: dict):
 if __name__ == "__main__":
     print(get_values(get_lines()))
     put_values({
-        "HOME_FOLDER": "'Affiliate Faculty'\n",
+        "PROJECT_FOLDER": "'Affiliate Faculty'\n",
         "CSV_FILENAME": "'data.csv'\n",
-        "TXT_FILENAME": "'letter.txt'\n"
+        "TXT_FILENAME": "'letter.txt'\n",
+        "HOME_FOLDER": "FILES"
     })
 else:
     print("importing change_constants.py")

@@ -15,7 +15,7 @@ def process_all_docs(list_of_dicts: list, doc_name: str, titles: list, folder_na
     
     for dictionary in list_of_dicts:
         letter_name = process_doc(dictionary, doc_name, titles, folder_name)
-        print(f'Creating letter {letter_name}.docx')
+        print(f'Creating letter {letter_name}')
 
 def get_doc_words(doc_name: str) -> set:
     """
