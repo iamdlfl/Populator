@@ -1,0 +1,7 @@
+The _SystemName website is _DistrictWebsite and they are located in _City.
+
+They have a total of _total_enroll students enrolled, with a population of approximately _pct_asian percent Asian students, _pct_native percent Native 
+American students, _pct_black percent Black students, _pct_hispanic percent Hispanic students, _pct_multi percent multi-ethnic students and _pct_white percent White
+students. 
+
+The school grade is _Grade and an email was _sent_bool.
