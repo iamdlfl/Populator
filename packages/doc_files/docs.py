@@ -44,8 +44,8 @@ def process_doc(replacement_dict: dict, doc_name: str, titles: list, folder_name
     font.name = "Calibri"
     font.size = Pt(11)
 
-    column = 0
-    safe_name = make_safe_filename(replacement_dict[titles[column]])
+    column = 1
+    safe_name = make_safe_filename(f'{replacement_dict[titles[0]]} {replacement_dict[titles[column]]}')
 
     while not check_dir(f'{safe_name}.docx', folder_name):
         column += 1

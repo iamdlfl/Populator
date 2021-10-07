@@ -1,5 +1,5 @@
-('\\\\ad.ufl.edu\\clas\\home\\d\\djlynch\\Documents\\Coding\\Utility\\Form '
- 'Letter Generator\\build\\main\\main.exe',
+('S:\\ces\\David\\Programs and Outreach\\Coding\\Utility\\Form Letter '
+ 'Generator\\build\\main\\main.exe',
  False,
  False,
  True,
@@ -14,8 +14,8 @@
  None,
  'main.pkg',
  [('PYZ-00.pyz',
-   '\\\\ad.ufl.edu\\clas\\home\\d\\djlynch\\Documents\\Coding\\Utility\\Form '
-   'Letter Generator\\build\\main\\PYZ-00.pyz',
+   'S:\\ces\\David\\Programs and Outreach\\Coding\\Utility\\Form Letter '
+   'Generator\\build\\main\\PYZ-00.pyz',
    'PYZ'),
   ('struct', 'c:\\python39\\lib\\struct.pyo', 'PYMODULE'),
   ('pyimod01_os_path',
@@ -46,17 +46,17 @@
    'C:\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
   ('main',
-   '\\\\ad.ufl.edu\\clas\\home\\d\\djlynch\\Documents\\Coding\\Utility\\Form '
-   'Letter Generator\\main.py',
+   '\\\\clasit.fs.osg.ufl.edu\\ls-share\\SHARE\\ces\\David\\Programs and '
+   'Outreach\\Coding\\Utility\\Form Letter Generator\\main.py',
    'PYSOURCE'),
   ('main.exe.manifest',
-   '\\\\ad.ufl.edu\\clas\\home\\d\\djlynch\\Documents\\Coding\\Utility\\Form '
-   'Letter Generator\\build\\main\\main.exe.manifest',
+   'S:\\ces\\David\\Programs and Outreach\\Coding\\Utility\\Form Letter '
+   'Generator\\build\\main\\main.exe.manifest',
    'BINARY')],
  [],
  False,
  False,
- 1633117614,
+ 1633629616,
  [('runw.exe',
    'c:\\python39\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\runw.exe',
    'EXECUTABLE')])

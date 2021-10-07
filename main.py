@@ -137,7 +137,7 @@ class Application(tk.Frame):
     def process_home_name(self, event=None):
         """
         Processes the home folder name - starts out at the default value of FILES. 
-        Choosing a new home folder will not create a new default
+        Choosing a new home folder will not create a new default.
         """
         filename = filedialog.askdirectory()
         # Gets the name of the final directory in the absolute path
@@ -169,7 +169,7 @@ class Application(tk.Frame):
         self.values["PROJECT_FOLDER"] = folder_name
         self.project_folder = os.path.join(self.home_folder, self.values["PROJECT_FOLDER"])
         put_values(self.values)
-        messagebox.showinfo("Updated Filename", "Updated the filename for this file.")
+        messagebox.showinfo("Updated Folder Name", "Updated the name for project folder.")
 
 
     def process_csv_name(self, event=None):
@@ -179,7 +179,7 @@ class Application(tk.Frame):
         """
         csv_name = self.csvnameEntry.get()
         if '.csv' not in csv_name[-5:]:
-            messagebox.showerror('Incorrect File Format', message="Please ensure that the filename you have input is a .csv file.")
+            messagebox.showerror('Incorrect File Format', message="Please ensure that the filename you have input is a .csv file. You must include the file extension ('.csv').")
         if check_dir(csv_name, self.project_folder):
             answer = messagebox.askyesno(title="File Note Found", message=f"That CSV file {csv_name} was not found, would you like to choose one to use?")
             if answer:
@@ -192,7 +192,7 @@ class Application(tk.Frame):
                 return
         self.values["CSV_FILENAME"] = csv_name
         put_values(self.values)
-        messagebox.showinfo("Updated Filename", "Updated the filename for this file.")
+        messagebox.showinfo("Updated Filename", "Updated the filename for CSV file.")
 
 
     def process_txt_name(self, event=None):
@@ -202,7 +202,7 @@ class Application(tk.Frame):
         """
         txt_name = self.txtnameEntry.get()
         if ('.txt' not in txt_name[-5:]) and ('.docx' not in txt_name[-5:]):
-            messagebox.showerror('Incorrect File Format', message="Please ensure that the filename you have input is a .txt or .docx file.")
+            messagebox.showerror('Incorrect File Format', message="Please ensure that the filename you have input is a .txt or .docx file. You must include the file extension ('.txt' or '.docx')")
             return
         if check_dir(txt_name, self.project_folder):
             answer = messagebox.askyesno(title="File Note Found", message=f'That TXT/DOCX file {txt_name} was not found, would you like to choose one to use?')
@@ -216,7 +216,7 @@ class Application(tk.Frame):
                 return
         self.values["TXT_FILENAME"] = txt_name
         put_values(self.values)
-        messagebox.showinfo("Updated Filename", "Updated the filename for this file.")
+        messagebox.showinfo("Updated Filename", "Updated the filename for TXT/DOCX file.")
 
     def process_letters(self, event=None):
         """

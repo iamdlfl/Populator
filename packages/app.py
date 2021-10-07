@@ -61,3 +61,9 @@ def do_app(home, csv, txt):
         message = "Error, it appears, you have chosen a letter file that is not a TXT or DOCX. Please ensure that the filetype"
         message += " of the letter file is a txt or docx"
         return False, messagebox.showerror(title="ERROR", message=message)
+
+
+if __name__ == "__main__":
+    pass
+else:
+    print('importing app.py')

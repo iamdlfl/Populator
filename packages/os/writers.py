@@ -35,8 +35,8 @@ def create_letter(dictionary: dict, letter_text: str, titles: list, folder_name:
     """
     sorted_titles = sort_titles(titles)
     new_letter_text = create_letter_text(dictionary, letter_text, sorted_titles)
-    column = 0
-    safe_name = make_safe_filename(dictionary[titles[column]])
+    column = 1
+    safe_name = make_safe_filename(f'{dictionary[titles[0]]} {dictionary[titles[column]]}')
     while not check_dir(f'{safe_name}.txt', folder_name):
         column += 1
         safe_name += f' {make_safe_filename(dictionary[titles[column]])}'
