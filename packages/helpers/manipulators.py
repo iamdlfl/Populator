@@ -1,4 +1,7 @@
 def remove_punctuation(string: str):
+    """
+    Simple function to replace all punctuation and symbols from a string
+    """
     return string.translate({ord(i): None for i in '.,!?()[:;]}{%$#@^&*\'"\\|`~'})
 
 def create_letter_text(replacement_dict: dict, letter_text: str, titles: list) -> str:

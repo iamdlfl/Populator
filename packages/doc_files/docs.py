@@ -9,7 +9,9 @@ from ..helpers.manipulators import make_safe_filename, sort_titles, remove_punct
 from ..helpers.checkers import check_dir # type: ignore
 
 def process_all_docs(list_of_dicts: list, doc_name: str, titles: list, folder_name: str):
-    
+    """
+    Processes all docx files using the process_doc() function, with a hard limit of 5000 rows for the CSV
+    """    
     if len(list_of_dicts) > 5000:
         return messagebox.showerror(title="ERROR", message="There are too many lines in the CSV, this program cannot handle over 5000 lines")
     
@@ -31,6 +33,11 @@ def get_doc_words(doc_name: str) -> set:
 
 
 def process_doc(replacement_dict: dict, doc_name: str, titles: list, folder_name: str):
+    """
+    Process and replace words in the document, set styles to calibri and 11pt font,
+    finally save file based on the replacement words, adding more columns until
+    it finds a filename that isn't already in use.
+    """
     sorted_titles = sort_titles(titles)
     doc = docx.Document(doc_name)
     for para in doc.paragraphs:
