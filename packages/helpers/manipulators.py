@@ -34,12 +34,12 @@ def process_bool(title: str, replacement_dict: dict) -> str:
 
     Will return "****ERROR****" if it doesn't find one of those two values
     """
-    new_word = title.replace("_", "").strip("bool").lower()
+    new_word = title.replace("_", " ").strip("bool")
     value = replacement_dict[title]
     if value == "1":
         return new_word
     elif value == "0":
-        return f'not {new_word}'
+        return f'not {new_word.strip()}'
     else:
         return "****ERROR****"
 

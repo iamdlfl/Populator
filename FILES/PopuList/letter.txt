@@ -2,4 +2,4 @@ The _PARTY_NAME is a political party in _COUNTRY_NAME.
 
 The party name in English is _PARTY_NAME_ENGLISH.
 
-They are _POPULIST_bool.
+They are _a_populist_party_bool.
