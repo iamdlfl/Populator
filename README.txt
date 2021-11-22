@@ -3,6 +3,8 @@ This the readme for the Populator program (Form Letter Generator) to create mass
 
 This program was designed and created by David Lynch for use in the Center for European Studies.
 
+THE ACTUAL PROGRAM IS FOUND IN DIST/MAIN
+
 *** REQUIREMENTS ***
 This program requires a CSV file and a TXT/DOCX form letter. Please ensure that the placeholder words in the letter:
 1. Match the column titles (headers) of the CSV file EXACTLY

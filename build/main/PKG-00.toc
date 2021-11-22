@@ -1,5 +1,5 @@
-('S:\\ces\\David\\Programs and Outreach\\Coding\\Utility\\Form Letter '
- 'Generator\\build\\main\\PKG-00.pkg',
+('S:\\ces\\Staff-Restricted\\David\\Programs and '
+ 'Outreach\\Coding\\Utility\\Form Letter Generator\\build\\main\\PKG-00.pkg',
  {'BINARY': 1,
   'DATA': 1,
   'EXECUTABLE': 1,
@@ -9,8 +9,8 @@
   'PYZ': 0,
   'SPLASH': 1},
  [('PYZ-00.pyz',
-   'S:\\ces\\David\\Programs and Outreach\\Coding\\Utility\\Form Letter '
-   'Generator\\build\\main\\PYZ-00.pyz',
+   'S:\\ces\\Staff-Restricted\\David\\Programs and '
+   'Outreach\\Coding\\Utility\\Form Letter Generator\\build\\main\\PYZ-00.pyz',
    'PYZ'),
   ('struct', 'c:\\python39\\lib\\struct.pyo', 'PYMODULE'),
   ('pyimod01_os_path',
@@ -41,11 +41,12 @@
    'C:\\Python39\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
   ('main',
-   '\\\\clasit.fs.osg.ufl.edu\\ls-share\\SHARE\\ces\\David\\Programs and '
-   'Outreach\\Coding\\Utility\\Form Letter Generator\\main.py',
+   '\\\\clasit.fs.osg.ufl.edu\\ls-share\\SHARE\\ces\\Staff-Restricted\\David\\Programs '
+   'and Outreach\\Coding\\Utility\\Form Letter Generator\\main.py',
    'PYSOURCE'),
   ('main.exe.manifest',
-   'S:\\ces\\David\\Programs and Outreach\\Coding\\Utility\\Form Letter '
+   'S:\\ces\\Staff-Restricted\\David\\Programs and '
+   'Outreach\\Coding\\Utility\\Form Letter '
    'Generator\\build\\main\\main.exe.manifest',
    'BINARY')],
  True,
