@@ -1,9 +1,11 @@
 *** INTRO ***
-This the readme for the Populator program (Form Letter Generator) to create massive amounts of form letters in a short amount of time.
+This the readme for the Populator program (Form Letter Generator) to create large amounts of form letters in a short amount of time.
 
 This program was designed and created by David Lynch for use in the Center for European Studies.
 
-THE ACTUAL PROGRAM IS FOUND IN DIST/MAIN
+Troubleshooting at bottom.
+
+THE ACTUAL PROGRAM IS FOUND IN DIST/MAIN 
 
 *** REQUIREMENTS ***
 This program requires a CSV file and a TXT/DOCX form letter. Please ensure that the placeholder words in the letter:
@@ -37,3 +39,9 @@ The only exception is handling boolean logic. See guidance for booleans below:
 
 4. Note that underscores become replaced by spaces for the boolean placeholder word.
 5. Please also note that it is case sensitive - whatever case you have will be retained for the replacement word.
+
+
+*** TROUBLESHOOTING *** 
+- Do not use the word "Letters" in your folder names or file names. I don't know why but it causes issues.
+- Do not use underlined spaces to create signature lines, use actual underscore characters. Only use *one* underscore at the start of placeholder words.
+	- The program tests if a signature line is present by looking at the first two characters. If only the first is an underscore it becomes a placeholder. If the second is too, it ignores it and leaves it as is.
